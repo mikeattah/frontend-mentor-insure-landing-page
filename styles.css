@@ -1,0 +1,58 @@
+:root {
+  --color-dark-violet: hsl(256, 26%, 20%);
+  --color-grayish-blue: hsl(216, 30%, 68%);
+  --color-very-dark-violet: hsl(270, 9%, 17%);
+  --color-dark-grayish-violet: hsl(273, 4%, 51%);
+  --color-very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 280vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  height: 10vh;
+  width: 100%;
+}
+
+.manin-container {
+  height: 270vh;
+  width: 100%;
+}
+
+.intro-section {
+  height: 90vh;
+  width: 100%;
+}
+
+.diff-section {
+  height: 90vh;
+  width: 100%;
+}
+
+.footer-section {
+  height: 90vh;
+  width: 100%;
+}
+
+.attribution-container {
+  height: 10vh;
+  width: 100%;
+}
