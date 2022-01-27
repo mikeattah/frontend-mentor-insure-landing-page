@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html class="hydrated" lang="en-US">
   <head>
-    <!-- Character Set -->
     <meta charset="UTF-8" />
-
-    <!-- displays site properly based on user's device -->
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=2"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="HandheldFriendly" content="true" />
 
     <!-- Favicon -->
@@ -21,10 +14,12 @@
     />
 
     <!-- My personal font awesome 5 kit -->
-    <script
-      src="https://kit.fontawesome.com/ddc4c3e78e.js"
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
-    ></script>
+    />
 
     <title>Frontend Mentor | Insure Landing Page</title>
 
@@ -40,205 +35,203 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="nav-container">
-        <div class="logo">
-          <img src="./images/logo.svg" alt="Insure company logo" />
-        </div>
-        <nav id="mobile-nav-bar" class="nav-bar">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#" class="nav-link"> HOW WE WORK </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"> BLOG </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"> ACCOUNT </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link btn-a"> VIEW PLANS </a>
-            </li>
-          </ul>
-        </nav>
-        <a
-          href="javascript:void(0);"
-          id="mobile-nav-icon"
-          class="icon"
-          onclick="mobileNavBar()"
-          >☰</a
-        >
-      </header>
-      <main class="main-container">
-        <!-- S1 -->
-        <section class="intro-section">
-          <div class="intro-left">
-            <img
-              src="./images/bg-pattern-intro-left-desktop.svg"
-              alt="Left design pattern"
-              class="intro-left-pattern"
-            />
-            <div class="intro-top-line"></div>
-            <h2 class="intro-left-title">
-              Humanizing <br />
-              your insurance.
-            </h2>
-            <p class="intro-left-text">
-              Get your life insurance coverage easier and faster. We blend our
-              expertise <br />
-              and technology to help you find the plan that&apos;s right for
-              you. Ensure you <br />
-              and your loved ones are protected.
-            </p>
-            <a href="#" class="btn-b">VIEW PLANS</a>
-          </div>
-          <img
-            src="./images/bg-pattern-intro-right-desktop.svg"
-            alt="Left design pattern"
-            class="intro-right-pattern"
-          />
-          <img
-            src="./images/bg-pattern-intro-right-mobile.svg"
-            alt="Left design pattern"
-            class="intro-right-pattern-mobile"
-          />
-          <img
-            srcset="
-              ./images/image-intro-mobile.jpg  375w,
-              ./images/image-intro-desktop.jpg 540w
-            "
-            sizes="(max-width: 600px) 100vw, 540px"
-            alt="A man, woman and two kids holding hands"
-            class="intro-main-image"
-          />
-        </section>
-        <!-- S2 -->
-        <section class="diff-section">
-          <div class="diff-top-line"></div>
-          <h2 class="diff-section-title">We&apos;re different</h2>
-          <div class="diff-box-container">
-            <div class="diff-box">
-              <img
-                src="./images/icon-snappy-process.svg"
-                alt="Snappy process icon"
-                class="diff-box-icon"
-              />
-              <h3 class="diff-box-title">Snappy Process</h3>
-              <p class="diff-box-text">
-                Our application process can be completed in minutes, not hours.
-                Don&apos;t get stuck filling in tedious forms.
-              </p>
-            </div>
-            <div class="diff-box">
-              <img
-                src="./images/icon-affordable-prices.svg"
-                alt="Affordable prices icon"
-                class="diff-box-icon"
-              />
-              <h3 class="diff-box-title">Affordable Prices</h3>
-              <p class="diff-box-text">
-                We don&apos;t want you to worry about high monthly costs. Our
-                prices may be low, but we still offer the best coverage
-                possible.
-              </p>
-            </div>
-            <div class="diff-box">
-              <img
-                src="./images/icon-people-first.svg"
-                alt="People first icon"
-                class="diff-box-icon"
-              />
-              <h3 class="diff-box-title">People First</h3>
-              <p class="diff-box-text">
-                Our plans aren&apos;t full of conditions and clauses to prevent
-                payouts. We make sure you&apos;re covered when you need it.
-              </p>
-            </div>
-          </div>
-        </section>
-        <!-- S3 -->
-        <section class="footer-section">
-          <div class="footer-section-top">
-            <div class="footer-section-box">
-              <h2 class="footer-section-box-title">
-                Find out more <br />
-                about how we work
-              </h2>
-              <a href="#" class="btn-b">HOW WE WORK</a>
-            </div>
-          </div>
-          <footer class="footer-section-bottom">
-            <div class="bottom-logo-container">
-              <div class="bottom-logo-left">
-                <img src="./images/logo.svg" alt="Insure company logo" />
-              </div>
-              <div class="bottom-logo-right">
-                <a href="#" class="social-media-icons">
-                  <img src="./images/icon-facebook.svg" alt="Facebook icon" />
-                </a>
-                <a href="#" class="social-media-icons">
-                  <img src="./images/icon-twitter.svg" alt="Twitter icon" />
-                </a>
-                <a href="#" class="social-media-icons">
-                  <img src="./images/icon-pinterest.svg" alt="Pinterest icon" />
-                </a>
-                <a href="#" class="social-media-icons">
-                  <img src="./images/icon-instagram.svg" alt="Instagram icon" />
-                </a>
-              </div>
-            </div>
-            <div class="bottom-links-container">
-              <div class="bottom-links-left">
-                <a href="#" class="bottom-links-a">OUR COMPANY</a>
-                <a href="#" class="bottom-links-b">HOW WE WORK</a>
-                <a href="#" class="bottom-links-b">WHY INSURE?</a>
-                <a href="#" class="bottom-links-b">VIEW PLANS</a>
-                <a href="#" class="bottom-links-b">REVIEWS</a>
-              </div>
-              <div class="bottom-links-center">
-                <a href="#" class="bottom-links-a">HELP ME</a>
-                <a href="#" class="bottom-links-b">FAQ</a>
-                <a href="#" class="bottom-links-b">TERMS OF USE</a>
-                <a href="#" class="bottom-links-b">PRIVACY POLICY</a>
-                <a href="#" class="bottom-links-b">COOKIES</a>
-              </div>
-              <div class="bottom-links-center">
-                <a href="#" class="bottom-links-a">CONTACT</a>
-                <a href="#" class="bottom-links-b">SALES</a>
-                <a href="#" class="bottom-links-b">SUPPORT</a>
-                <a href="#" class="bottom-links-b">LIVE CHAT</a>
-              </div>
-              <div class="bottom-links-right">
-                <a href="#" class="bottom-links-a">OTHERS</a>
-                <a href="#" class="bottom-links-b">CAREERS</a>
-                <a href="#" class="bottom-links-b">PRESS</a>
-                <a href="#" class="bottom-links-b">LICENSES</a>
-              </div>
-            </div>
-          </footer>
-        </section>
-      </main>
-      <div class="attribution-container">
-        <p class="attribution">
-          Challenge by
-          <a
-            href="https://www.frontendmentor.io?ref=challenge"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="attribution-link"
-            >Frontend Mentor</a
-          >. Coded by
-          <a
-            href="https://twitter.com/miikeattah"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="attribution-link"
-          >
-            Mike Attah</a
-          >.
-        </p>
+    <header class="nav-container">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Insure company logo" />
       </div>
-    </div>
+      <nav id="mobile-nav-bar" class="nav-bar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link"> HOW WE WORK </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> BLOG </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> ACCOUNT </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn-a"> VIEW PLANS </a>
+          </li>
+        </ul>
+      </nav>
+      <a
+        href="javascript:void(0);"
+        id="mobile-nav-icon"
+        class="icon"
+        onclick="mobileNavBar()"
+        >☰</a
+      >
+    </header>
+    <main class="main-container">
+      <!-- S1 -->
+      <section class="intro-section">
+        <div class="intro-left">
+          <img
+            src="./images/bg-pattern-intro-left-desktop.svg"
+            alt="Left design pattern"
+            class="intro-left-pattern"
+          />
+          <div class="intro-top-line"></div>
+          <h2 class="intro-left-title">
+            Humanizing <br />
+            your insurance.
+          </h2>
+          <p class="intro-left-text">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise <br />
+            and technology to help you find the plan that&apos;s right for you.
+            Ensure you <br />
+            and your loved ones are protected.
+          </p>
+          <a href="#" class="btn-b">VIEW PLANS</a>
+        </div>
+        <img
+          src="./images/bg-pattern-intro-right-desktop.svg"
+          alt="Left design pattern"
+          class="intro-right-pattern"
+        />
+        <img
+          src="./images/bg-pattern-intro-right-mobile.svg"
+          alt="Left design pattern"
+          class="intro-right-pattern-mobile"
+        />
+        <img
+          class="intro-main-image"
+          srcset="
+            ./images/image-intro-mobile.jpg  375w,
+            ./images/image-intro-desktop.jpg 540w
+          "
+          sizes="(max-width: 600px) 100vw, 540px"
+          src="./images/image-intro-desktop.jpg"
+          alt="A man, woman and two kids holding hands"
+        />
+      </section>
+      <!-- S2 -->
+      <section class="diff-section">
+        <div class="diff-top-line"></div>
+        <h2 class="diff-section-title">We&apos;re different</h2>
+        <div class="diff-box-container">
+          <div class="diff-box">
+            <img
+              src="./images/icon-snappy-process.svg"
+              alt="Snappy process icon"
+              class="diff-box-icon"
+            />
+            <h3 class="diff-box-title">Snappy Process</h3>
+            <p class="diff-box-text">
+              Our application process can be completed in minutes, not hours.
+              Don&apos;t get stuck filling in tedious forms.
+            </p>
+          </div>
+          <div class="diff-box">
+            <img
+              src="./images/icon-affordable-prices.svg"
+              alt="Affordable prices icon"
+              class="diff-box-icon"
+            />
+            <h3 class="diff-box-title">Affordable Prices</h3>
+            <p class="diff-box-text">
+              We don&apos;t want you to worry about high monthly costs. Our
+              prices may be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+          <div class="diff-box">
+            <img
+              src="./images/icon-people-first.svg"
+              alt="People first icon"
+              class="diff-box-icon"
+            />
+            <h3 class="diff-box-title">People First</h3>
+            <p class="diff-box-text">
+              Our plans aren&apos;t full of conditions and clauses to prevent
+              payouts. We make sure you&apos;re covered when you need it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- S3 -->
+      <section class="footer-section">
+        <div class="footer-section-top">
+          <div class="footer-section-box">
+            <h2 class="footer-section-box-title">
+              Find out more <br />
+              about how we work
+            </h2>
+            <a href="#" class="btn-b">HOW WE WORK</a>
+          </div>
+        </div>
+        <div class="footer-section-bottom">
+          <div class="bottom-logo-container">
+            <div class="bottom-logo-left">
+              <img src="./images/logo.svg" alt="Insure company logo" />
+            </div>
+            <div class="bottom-logo-right">
+              <a href="#" class="social-media-icons">
+                <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+              </a>
+              <a href="#" class="social-media-icons">
+                <img src="./images/icon-twitter.svg" alt="Twitter icon" />
+              </a>
+              <a href="#" class="social-media-icons">
+                <img src="./images/icon-pinterest.svg" alt="Pinterest icon" />
+              </a>
+              <a href="#" class="social-media-icons">
+                <img src="./images/icon-instagram.svg" alt="Instagram icon" />
+              </a>
+            </div>
+          </div>
+          <div class="bottom-links-container">
+            <div class="bottom-links-left">
+              <a href="#" class="bottom-links-a">OUR COMPANY</a>
+              <a href="#" class="bottom-links-b">HOW WE WORK</a>
+              <a href="#" class="bottom-links-b">WHY INSURE?</a>
+              <a href="#" class="bottom-links-b">VIEW PLANS</a>
+              <a href="#" class="bottom-links-b">REVIEWS</a>
+            </div>
+            <div class="bottom-links-center">
+              <a href="#" class="bottom-links-a">HELP ME</a>
+              <a href="#" class="bottom-links-b">FAQ</a>
+              <a href="#" class="bottom-links-b">TERMS OF USE</a>
+              <a href="#" class="bottom-links-b">PRIVACY POLICY</a>
+              <a href="#" class="bottom-links-b">COOKIES</a>
+            </div>
+            <div class="bottom-links-center">
+              <a href="#" class="bottom-links-a">CONTACT</a>
+              <a href="#" class="bottom-links-b">SALES</a>
+              <a href="#" class="bottom-links-b">SUPPORT</a>
+              <a href="#" class="bottom-links-b">LIVE CHAT</a>
+            </div>
+            <div class="bottom-links-right">
+              <a href="#" class="bottom-links-a">OTHERS</a>
+              <a href="#" class="bottom-links-b">CAREERS</a>
+              <a href="#" class="bottom-links-b">PRESS</a>
+              <a href="#" class="bottom-links-b">LICENSES</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution-container">
+      <p class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="attribution-link"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://twitter.com/miikeattah"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="attribution-link"
+        >
+          Mike Attah</a
+        >.
+      </p>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
