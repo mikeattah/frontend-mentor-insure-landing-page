@@ -51,6 +51,6 @@ I will continue to learn how to create responsive nav bars using CSS and JavaScr
 
 ## Author
 
-- Website - [Mike Attah](https://www.mikeattah.com)
+- Website - [mikeattah.com](https://www.mikeattah.com)
 - Frontend Mentor - [@mikeattah](https://www.frontendmentor.io/profile/mikeattah)
-- Twitter - [@miikeattah](https://www.twitter.com/miikeattah)
+- Twitter - [@mikeattahh](https://www.twitter.com/mikeattahh)
